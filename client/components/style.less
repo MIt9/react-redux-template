@@ -1,0 +1,51 @@
+html, body, #app,#game{
+  height:100%;
+  margin:0;
+  padding:0;
+  font-family:Arial;
+  overflow: hidden;
+}
+#game{
+  display: flex;
+  flex-direction: column;
+}
+.barmenu{
+  flex:1;
+}
+.math{
+  flex:4;
+}
+.hands, .buttons, .animation, .move, .keyboard{
+  flex:6;
+  overflow: hidden;
+}
+.animation img{
+  justify-content: center;
+  width:100%;
+  display:flex;
+
+}
+.math{
+  font-size:4em;
+  display:flex;
+  flex-direction:row;
+}
+.math span{
+  justify-content: center;
+  display:flex;
+  flex:1;
+  align-items: center;
+}
+.left{
+  color:red
+}
+.right{
+  color:blue;
+}
+.hands{
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.answer{
+  text-decoration: underline;
+}

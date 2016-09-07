@@ -1,0 +1,24 @@
+.math{
+  display:flex;
+  flex-direction: row;
+  div{
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    border:none;
+  }
+  &.good, &.bad{
+    div{
+      color:white;
+      border:none;
+    }
+  }
+  &.good div{
+    background: green;
+  }
+  &.bad{
+    background: red;
+  }
+}
